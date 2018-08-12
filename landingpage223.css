@@ -1,0 +1,79 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+footer{
+  position: absolute;
+  font-family: "Arial";
+  bottom: 5px;
+  left: 5px;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+footer a:link, footer a:visited{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#brandbox{
+  flex: 1 0 50%;
+  text-align: center;
+  font-family: "Arial";
+  font-weight: bold;
+  color: #FFFFFF;
+	width: auto;
+	height: auto;
+}
+
+.headline{
+  text-transform: uppercase;
+  font-size: 24pt;
+}
+
+.subline{
+  font-size: 17pt;
+}
+
+span{
+	display: block;
+}
+
+
+div.blackground{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#brandbox .previewbutton{
+  background-color: transparent;
+  font-size: 10pt;
+  color: #C2C5CC;
+  border: #254299 solid 2px;
+  -webkit-box-shadow: 0px -3px 28px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -3px 28px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px -3px 28px -5px rgba(0,0,0,0.75);
+  padding: 20px;
+  margin: 14px 4px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.banner{
+  background-image: url("LogoGK.png");
+}
