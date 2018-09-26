@@ -1,19 +1,17 @@
 body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
   margin: 0;
+  padding: 0;
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: "Arial";
+  font-weight: bold;
   overflow: hidden;
 }
 
 footer{
-  position: absolute;
+	position: absolute;
   font-family: "Arial";
   bottom: 5px;
   left: 5px;
@@ -27,13 +25,14 @@ footer a:link, footer a:visited{
 }
 
 #brandbox{
-  flex: 1 0 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  font-family: "Arial";
-  font-weight: bold;
   color: #FFFFFF;
-	width: auto;
-	height: auto;
+  width: auto;
+  height: auto;
 }
 
 .headline{
